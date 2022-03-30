@@ -45,6 +45,7 @@ if __name__ == '__main__':
     hossz = len(qt_designer_location) - 18 if not conda else len(qt_designer_location) - 10
     qt_designer_location = qt_designer_location[:hossz]
     # a sys.executeable által visszaadott stringből levágjuk a "Scripts\python.exe" vagy a "python.exe"-t
+    # conda estében a "python.exe"-t kell csak levágni
     qt_designer_location = qt_designer_location + 'Lib\site-packages\qt6_applications\Qt\\bin\\designer.exe'
     print(qt_designer_location)
 
