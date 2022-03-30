@@ -32,6 +32,7 @@ if __name__ == '__main__':
     installer('PyQt6-6.1.0-py3-none-win_amd64.whl')
     installer('pyqt6_plugins-6.1.0.2.2-py3-none-win_amd64.whl')
     installer('pyqt6-tools')
+    installer('PySide6')
 
     # workaround
 
